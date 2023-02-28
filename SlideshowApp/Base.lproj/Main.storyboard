@@ -83,7 +83,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyN-VZ-gKa">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyN-VZ-gKa">
                                 <rect key="frame" x="20" y="43" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="＜戻る"/>
@@ -104,7 +104,6 @@
                             <constraint firstItem="UyN-VZ-gKa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iFQ-c1-IE9" secondAttribute="leading" id="Ikx-Qo-ibz"/>
                             <constraint firstItem="Q1w-i9-UHM" firstAttribute="centerX" secondItem="fOf-sG-xg5" secondAttribute="centerX" id="QgD-Zi-fMg"/>
                             <constraint firstItem="Q1w-i9-UHM" firstAttribute="leading" secondItem="iFQ-c1-IE9" secondAttribute="leading" id="RVB-dA-Mz4"/>
-                            <constraint firstItem="iFQ-c1-IE9" firstAttribute="trailing" secondItem="UyN-VZ-gKa" secondAttribute="trailing" constant="327" id="efz-e2-7VG"/>
                             <constraint firstItem="UyN-VZ-gKa" firstAttribute="top" secondItem="iFQ-c1-IE9" secondAttribute="top" constant="43" id="keV-IQ-tza"/>
                             <constraint firstItem="iFQ-c1-IE9" firstAttribute="trailing" secondItem="Q1w-i9-UHM" secondAttribute="trailing" id="oTB-bm-BOf"/>
                             <constraint firstItem="Q1w-i9-UHM" firstAttribute="centerY" secondItem="fOf-sG-xg5" secondAttribute="centerY" id="xWz-zj-C7E"/>
